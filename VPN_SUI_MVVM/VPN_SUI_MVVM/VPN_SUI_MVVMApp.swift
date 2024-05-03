@@ -2,8 +2,6 @@
 //  VPN_SUI_MVVMApp.swift
 //  VPN_SUI_MVVM
 //
-//  Created by Евгений Л on 03.05.2024.
-//
 
 import SwiftUI
 

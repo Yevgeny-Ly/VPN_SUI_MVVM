@@ -2,20 +2,14 @@
 //  ContentView.swift
 //  VPN_SUI_MVVM
 //
-//  Created by Евгений Л on 03.05.2024.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
         }
-        .padding()
     }
 }
 
