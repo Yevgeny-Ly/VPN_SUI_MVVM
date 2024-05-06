@@ -7,7 +7,7 @@ import SwiftUI
 
 /// Настройка tabView
 struct MainTabView: View {
-    enum Constants {
+    private enum Constants {
         static var titleBarVPN = "VPN"
         static var nameBarItemLock = "lock.fill"
         static var titleBarPurchase = "Purchase"

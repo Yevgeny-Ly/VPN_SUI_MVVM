@@ -6,7 +6,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    enum Constants {
+    private enum Constants {
         static var titleCountryFrance = "France"
         static var titleActivateVPN = "VPN активирован"
         static var titleAdressIP = "IP Address"

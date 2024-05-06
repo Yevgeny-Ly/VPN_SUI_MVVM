@@ -7,7 +7,7 @@ import SwiftUI
 
 /// Экран Оплаты
 struct PurchaseView: View {
-    enum Constants {
+    private enum Constants {
         static var titlePrivacy = "Privacy Matters"
         static var titleActivitiesVPN = "Protect your online activities with VPN Plus"
         static var titleSevenCalendarDays = "7"

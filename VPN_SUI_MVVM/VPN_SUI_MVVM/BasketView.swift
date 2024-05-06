@@ -7,7 +7,7 @@ import SwiftUI
 
 /// Экран корзины
 struct BasketView: View {
-    enum Constants {
+    private enum Constants {
         static var titleСhoosed = "You choosed"
         static var titlePay = "Please check and pay the selected tariff"
         static var titleFontVerdanaBold = "Verdana-Bold"
