@@ -9,7 +9,7 @@ import SwiftUI
 struct VPN_SUI_MVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }

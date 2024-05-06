@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936F8FF82BE8C8CD0033D779 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F8FF72BE8C8CD0033D779 /* HomeView.swift */; };
+		936F8FFA2BE8C9040033D779 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F8FF92BE8C9040033D779 /* PurchaseView.swift */; };
+		936F8FFC2BE8C9370033D779 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F8FFB2BE8C9370033D779 /* BasketView.swift */; };
 		93A6762D2BE4ECF9006FEBC6 /* VPN_SUI_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A6762C2BE4ECF9006FEBC6 /* VPN_SUI_MVVMApp.swift */; };
-		93A6762F2BE4ECF9006FEBC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A6762E2BE4ECF9006FEBC6 /* ContentView.swift */; };
+		93A6762F2BE4ECF9006FEBC6 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A6762E2BE4ECF9006FEBC6 /* MainTabView.swift */; };
 		93A676312BE4ECFC006FEBC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A676302BE4ECFC006FEBC6 /* Assets.xcassets */; };
 		93A676342BE4ECFC006FEBC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A676332BE4ECFC006FEBC6 /* Preview Assets.xcassets */; };
+		93A676552BE5ABE9006FEBC6 /* VpnViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A676542BE5ABE9006FEBC6 /* VpnViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		936F8FF72BE8C8CD0033D779 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		936F8FF92BE8C9040033D779 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		936F8FFB2BE8C9370033D779 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
 		93A676292BE4ECF9006FEBC6 /* VPN_SUI_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPN_SUI_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A6762C2BE4ECF9006FEBC6 /* VPN_SUI_MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPN_SUI_MVVMApp.swift; sourceTree = "<group>"; };
-		93A6762E2BE4ECF9006FEBC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93A6762E2BE4ECF9006FEBC6 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		93A676302BE4ECFC006FEBC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93A676332BE4ECFC006FEBC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93A676542BE5ABE9006FEBC6 /* VpnViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				93A6762C2BE4ECF9006FEBC6 /* VPN_SUI_MVVMApp.swift */,
-				93A6762E2BE4ECF9006FEBC6 /* ContentView.swift */,
+				93A6762E2BE4ECF9006FEBC6 /* MainTabView.swift */,
+				936F8FFB2BE8C9370033D779 /* BasketView.swift */,
+				936F8FF92BE8C9040033D779 /* PurchaseView.swift */,
+				936F8FF72BE8C8CD0033D779 /* HomeView.swift */,
+				93A676542BE5ABE9006FEBC6 /* VpnViewModel.swift */,
 				93A676302BE4ECFC006FEBC6 /* Assets.xcassets */,
 				93A676322BE4ECFC006FEBC6 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93A6762F2BE4ECF9006FEBC6 /* ContentView.swift in Sources */,
+				936F8FFC2BE8C9370033D779 /* BasketView.swift in Sources */,
+				93A676552BE5ABE9006FEBC6 /* VpnViewModel.swift in Sources */,
+				936F8FF82BE8C8CD0033D779 /* HomeView.swift in Sources */,
+				93A6762F2BE4ECF9006FEBC6 /* MainTabView.swift in Sources */,
+				936F8FFA2BE8C9040033D779 /* PurchaseView.swift in Sources */,
 				93A6762D2BE4ECF9006FEBC6 /* VPN_SUI_MVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
